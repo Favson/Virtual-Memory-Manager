@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "g++",
+      "args": ["-std=c++11", "memory_manager.cpp", "-o", "memory_manager"],
+      "group": {"kind": "build", "isDefault": true}
+    }
+  ]
+}
